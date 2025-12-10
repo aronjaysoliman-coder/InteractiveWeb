@@ -1,0 +1,251 @@
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="icon" href="images/Icon/icon.png" type="image/x-icon">
+        <script src="interactive3.1.js" defer></script>
+    </head>
+<body>
+    <header class="header">
+        <div class="main-icon">
+            <img src="images/Logo/Main_Logo.png" class="logo">
+            <h1 class="title-nav">Aron Jay Soliman</h1>
+        </div>
+        <nav class="navi">
+            <a href="index.html">Home</a>
+            <a href="AboutMe.html">About me</a>
+            <a href="School.html">School</a>
+            <a href="HireMe.html">Hire Me</a>
+            <a href="MyDrawing.html">My Drawing</a>
+            <a href="DemoTech.html">DemoTeach</a>
+            <a href="Interactive.html">Interactive</a>
+        </nav>
+    </header>
+        <section id="lessonPage" class="page visible">
+
+    <div class="lesson-container">
+
+        <div class="cycle">
+            <h1 class="lesson-title">The Stellar Life Cycle</h1>
+            <p class="intro">
+                Stars are born, change over time, and eventually die. Their entire life cycle is controlled mainly by their mass, but their internal chemistry—especially hydrogen, helium, nitrogen, and their temperature—also determines how they evolve.
+            </p>
+            <h3 id="subtit">Birth of a Star: Nebula Protostar</h3>
+            <p class="intro">
+                Stars begin inside large clouds of gas and dust called nebulae. Gravity pulls material together until it forms a protostar, which heats up as it contracts.
+            </p>
+                <div class="card">
+                    <h3 id="subtit">
+                        Key factor:
+                    </h3>
+                    <ul>
+                        <li>Mass — determines whether the protostar becomes a small star or a massive one.</li>
+                    </ul>
+                        <h2 id="subtit">
+                            Main Sequence Star
+                        </h2>
+                        <p class="intro">
+                            Once nuclear fusion starts in the core, the protostar becomes a main sequence star, where it spends most of its life converting hydrogen into helium. The star's mass determines its brightness, temperature, and lifespan during this stable phase. 
+                        </p>
+                        <p class="tip">
+                            Tip: A star remains in the main sequence stage for the majority of its life, with larger stars burning brighter but living shorter lives.
+                        </p>
+                        <p class="tip">
+                            Fun fact: Our Sun is currently a main sequence star, fusing hydrogen into helium in its core.
+                        </p>
+                </div>
+        </div>
+        
+            <div class="cycle">
+                <div class="card">
+                    <h1 class="lesson-title">How the factors influence this stage:</h1>
+                    <h3 id="subtit">Hydrogen (H)</h3>
+                        <ul>
+                            <li class="list">This is the star’s main fuel.</li>
+                            <li class="list">Higher hydrogen content allows the star to sustain fusion longer, extending its main sequence phase.</li>
+                        </ul>
+                    <h3 id="subtit">Helium (He)</h3>
+                        <ul>
+                            <li class="list">As hydrogen fuses into helium, the helium accumulates in the core.</li>
+                            <li class="list">Increased helium levels lead to changes in the star's structure, causing it to expand into a red giant or supergiant.</li>
+                        </ul>
+                    <h3 id="subtit">Nitrogen (N)</h3>
+                        <ul>
+                            <li class="list">Nitrogen is produced in later fusion stages.</li>
+                            <li class="list">Higher nitrogen levels indicate that the star is in an advanced stage of its life cycle, often preceding a supernova or collapse into a neutron star or black hole.</li>
+                        </ul>
+                    <h3 id="subtit">Temperature (Temperature)</h3>
+                        <ul>
+                            <li class="list">The star's surface temperature affects its color and luminosity.</li>
+                            <li class="list">Higher temperatures result in bluer, more luminous stars, while lower temperatures yield redder, dimmer stars.</li>
+                        </ul>
+                    <h3 id="subtit">Mass</h3>
+                        <ul>
+                            <li class="list">Mass is the primary determinant of a star's life cycle.</li>
+                            <li class="list">More massive stars have shorter lifespans and undergo more dramatic changes, while less massive stars evolve more slowly and quietly.</li>
+                        </ul>
+                </div>
+            </div>
+                <div class="cycle">
+                    <div class="table-box">
+                        <table>
+                            <tr>
+                                <th>Property</th>
+                                <th>How It Affects the Star</th>
+                            </tr>
+                            <tr>
+                                <td class="property">Mass</td>
+                                <td>Determines the entire life cycle, lifespan, temperature, brightness, and final fate.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">Hydrogen</td>
+                                <td>Main fuel source; how long the star stays stable.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">Helium</td>
+                                <td>Builds up over time; signals aging; leads the star toward giant phases.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">Nitrogen</td>
+                                <td>Indicates advanced fusion processes in massive stars.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">Temperature</td>
+                                <td>Controls fusion speed, color, brightness, and lifespan.</td>
+                            </tr>
+                        </table>
+                    </div>
+                       <h3 id="subtit">Red Giant or Supergiant Stage</h3>
+                            <p class="intro">
+                                The outer layers expand, forming a red giant (low/medium mass) or a red supergiant (high mass).
+                            </p>
+                        <h4 id="subtit">Chemical changes inside:</h4>
+                            <ul>
+                                <li class="list">The core begins fusing helium into carbon.</li>
+                            </ul>
+                        <h3 id="subtit">Final Stage: The Star’s Death</h3>
+                            <p class="intro">
+                                Depending on mass after the explosion, it becomes a neutron star or a black hole.
+                            </p>
+                        <button id="goToLab" class="primary-btn">Let's Explore the Lab</button>
+                </div>
+        
+        
+
+    </div>
+
+</section>
+
+
+<!-- ⭐ LABORATORY PAGE (Screen 2) -->
+
+<section id="labPage" class="page hidden">
+
+<h1 class="dynamic">Dynamic Stellar Life Cycle Lab</h1>
+
+<div id="container">
+
+<div id="controlsColumn">
+
+<h1 id="infoBox">Move sliders or use presets to explore star evolution.</h1>
+
+<!-- Mass -->
+<div class="controls">
+  <label>Mass:
+    <input id="massSlider" type="range" min="1" max="50" value="10">
+  </label>
+  <div class="readout small"><span id="massValue">10 Solar Masses</span></div>
+  <p class="tip">Tip: Larger mass = brighter star, shorter life.</p>
+</div>
+
+<!-- Composition -->
+<div class="controls">
+  <label>Hydrogen:
+    <input id="hydrogenSlider" type="range" min="0" max="100" value="70">
+  </label>
+    <p class="tip">Tip: More hydrogen = longer main-sequence stage.</p>
+  <div class="readout small"><span id="hydrogenValue">70%</span></div>
+
+  <label>Helium:
+    <input id="heliumSlider" type="range" min="0" max="100" value="28">
+  </label>
+    <p class="tip">Tip: Rising helium = red giant or supergiant phase.</p>
+  <div class="readout small"><span id="heliumValue">28%</span></div>
+
+  <label>Nitrogen:
+    <input id="nitrogenSlider" type="range" min="0" max="100" value="2">
+  </label>
+    <p class="tip">Tip: High nitrogen signals supernova or black hole formation.</p>
+  <div class="readout small"><span id="nitrogenValue">2%</span></div>
+</div>
+
+<!-- Temperature -->
+<div class="controls">
+  <label>Temperature (Kelvin):
+    <input id="tempSlider" type="range" min="2000" max="50000" step="100" value="5800">
+  </label>
+    <p class="tip">Tip: Higher temperature shifts star color from red → white → blue.</p>
+  <div class="readout small">
+    <span id="tempValue">5800 K</span> — Color blends temperature (80%) + composition (20%)
+  </div>
+</div>
+
+<!-- ⭐ PRESET DROPDOWN -->
+<div class="controls">
+  <label>Star Preset:
+    <select id="presetSelect">
+        <option value="">-- Select Preset --</option>
+        <option value="sun">Sun (Main Sequence)</option>
+        <option value="redGiant">Red Giant</option>
+        <option value="whiteDwarf">White Dwarf</option>
+        <option value="supergiant">Red Supergiant</option>
+        <option value="neutron">Neutron Star</option>
+        <option value="supernova">Supernova</option>
+        <option value="blackhole">Black Hole</option>
+    </select>
+  </label>
+</div>
+
+<div id="dataBox">Star Life Span Data</div>
+
+</div>
+
+<!-- Canvas Box -->
+<div id="canvasBox">
+  <canvas id="spaceCanvas"></canvas>
+</div>
+
+<!-- Right Info Column -->
+<div id="rightColumn">
+
+<div class="controls" id="statusPanel" style="padding:10px;border:1px solid #444;border-radius:8px;background:#111;">
+
+<h2 style="font-size:18px;margin:0 0 10px 0;">Star Status</h2>
+
+    <table>
+    <tr><td>Mass</td><td id="statusMass">--</td></tr>
+    <tr><td>Temperature</td><td id="statusTemp">-- K</td></tr>
+    <tr><td>Stage</td><td id="statusStage">--</td></tr>
+    <tr><td>Color</td><td id="statusColor">--</td></tr>
+    <tr><td>Hydrogen</td><td id="statusH">--%</td></tr>
+    <tr><td>Helium</td><td id="statusHe">--%</td></tr>
+    <tr><td>Nitrogen</td><td id="statusN">--%</td></tr>
+    <tr><td>Life Span</td><td id="statusLife">-- million years</td></tr>
+    </table>
+
+</div>
+
+    <div id="stagePanel" class="card" style="padding:10px;border:1px solid #444;border-radius:8px;background:#111; margin-top:20px;">
+        <h2 style="font-size:18px;margin:10px 0 10px 0;">Stage Description</h2>
+        <p id="starDesc" style="font-size:14px; color:#ccc; line-height:1.4;">Auto adjust</p>
+    </div>
+        <button id="backToLesson" class="right-back">← Back to Lesson</button>
+</div>
+</div>
+
+</section>
+</body>
+</html>
